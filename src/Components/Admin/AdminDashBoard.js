@@ -18,7 +18,7 @@ function AdminDashBoard() {
     }
     useEffect(() => {
         getAccountDetails(id);
-      },[])
+      },[]) //hi
     return(
     <div className="row ">
             <div className="col-lg-2 sidebar">
