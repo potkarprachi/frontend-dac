@@ -21,7 +21,7 @@ import AdminTransaction from "./Components/Admin/AdminTransaction";
 import { AdminCropStatus } from "./Components/Admin/AdminCropStatus";
 
 //hi 
-//hii by Akshay
+//hii by 
 function App() {
   return (
     <>
