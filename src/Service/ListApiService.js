@@ -30,3 +30,9 @@ export function cancelCropSelling(orderId)
     
     return axios.put(`${BASE_URL}/updateStatusCrop/${orderId}`);
 }
+
+export function changeStatusAxios(id,act)
+{
+    console.log(`${BASE_URL}/${id}/${act}`);
+    return axios.put(`${BASE_URL}/updateStatusByAdmin/${id}/${act}`)
+}

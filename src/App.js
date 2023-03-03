@@ -18,6 +18,7 @@ import { CropStatusFamer } from "./Components/Admin/CropStatusFarmer";
 import AdminDashBoard from "./Components/Admin/AdminDashBoard";
 import AdminSideNav from "./Components/Layout/AdminSideNav";
 import AdminTransaction from "./Components/Admin/AdminTransaction";
+import { AdminCropStatus } from "./Components/Admin/AdminCropStatus";
 
 //hi 
 //hii by Akshay
@@ -32,7 +33,6 @@ function App() {
             <Route path="/transaction" element={<TransactionPage></TransactionPage>}></Route>
             <Route path="/signup" element={<Signup></Signup>}></Route>
             <Route path="/farmerlogin" element={<FarmerLogin></FarmerLogin>}></Route>
-            <Route path="/adminCropTable" element={<CropStatusFamer></CropStatusFamer>}></Route>
             <Route path="/cropStatusFarmer" element={<FarmerCropStatus></FarmerCropStatus>}></Route>
             <Route path="/customerlogin" element={<CustomerLogin></CustomerLogin>}></Route>
             <Route path="/adminlogin" element={<AdminLogin></AdminLogin>}></Route>
@@ -42,6 +42,7 @@ function App() {
             <Route path="/admindashboard" element={<AdminDashBoard></AdminDashBoard>}></Route>
             <Route path="/adminsidebar" element={<AdminSideNav></AdminSideNav>}></Route> 
             <Route path="/admintransaction" element={<AdminTransaction></AdminTransaction>}></Route> 
+            <Route path="/adminCropTable" element={<AdminCropStatus></AdminCropStatus>}></Route>
             </Routes>
           <Footer></Footer>
         </BrowserRouter>
