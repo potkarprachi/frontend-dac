@@ -19,6 +19,7 @@ import AdminDashBoard from "./Components/Admin/AdminDashBoard";
 import AdminSideNav from "./Components/Layout/AdminSideNav";
 import AdminTransaction from "./Components/Admin/AdminTransaction";
 import { AdminCropStatus } from "./Components/Admin/AdminCropStatus";
+import { MenuPage } from "./Components/Customer/MenuPage";
 
 //hi 
 //hii by 
@@ -43,6 +44,7 @@ function App() {
             <Route path="/adminsidebar" element={<AdminSideNav></AdminSideNav>}></Route> 
             <Route path="/admintransaction" element={<AdminTransaction></AdminTransaction>}></Route> 
             <Route path="/adminCropTable" element={<AdminCropStatus></AdminCropStatus>}></Route>
+            <Route path="/menupage" element={<MenuPage></MenuPage>}></Route>
             </Routes>
           <Footer></Footer>
         </BrowserRouter>

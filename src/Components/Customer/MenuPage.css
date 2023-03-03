@@ -1,0 +1,8 @@
+.bg-for-menupage
+{
+    width:100vw;
+    min-height:100vh !important;
+    background-image:url(../Images/APMC.jpg);
+    background-size: cover;
+    background-position:center;
+}
