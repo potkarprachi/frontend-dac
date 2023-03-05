@@ -23,7 +23,7 @@ export function FarDashboard()
 
     async function updateDetails()
     {
-        navigate(`/updateform/${id}`);
+        navigate(`/accountupdate/`);
     
     }
     useEffect(() => {

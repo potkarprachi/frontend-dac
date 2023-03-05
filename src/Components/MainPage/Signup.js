@@ -4,7 +4,7 @@ import {insert} from "../../Service/ListApiService";
 
 import "./signup.css";
 
-function SignupTrailCheck() {
+function Signup() {
   const initialValues = { fullname: "", email: "", password: "", confirmpassword:"",phone:"",adhar:"", pincode:"", district:"", city:"", role:" "}; //changed
   const [formValues, setFormValues] = useState(initialValues);
   
@@ -311,4 +311,4 @@ function SignupTrailCheck() {
   );
 }
 
-export default SignupTrailCheck;
+export default Signup;
