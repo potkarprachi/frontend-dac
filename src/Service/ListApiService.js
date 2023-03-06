@@ -36,13 +36,17 @@ export function changeStatusAxios(id,act)
     console.log(`${BASE_URL}/${id}/${act}`);
     return axios.put(`${BASE_URL}/updateStatusByAdmin/${id}/${act}`)
 }
-
 export function getAllPendingList()
 {
     return axios.get(`${BASE_URL}/getAllCrops`);
 }
-
 export function getApprovedList()
 {
     return axios.get(`${BASE_URL}/menuPage`);
+}
+export function updateAccDetails(loginData)
+{
+    console.log("inside axios");
+    console.log(loginData);
+    return axios.put(`${BASE_URL}/updateAccDetails`,loginData);
 }

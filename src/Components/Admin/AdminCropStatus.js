@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { cancelCropSelling, changeStatusAxios, getAllCropList, getAllPendingList } from "../../Service/ListApiService";
+import AdminSideNav from "../Layout/AdminSideNav";
 import { FarmerSideNav } from "../Layout/FarmerSideNav";
-//hii
 //import "./FarmerCropStatus.css";
 import "../Farmer/FarmerCropStatus.css"
+import "./CropVerification.css";
 export function AdminCropStatus() {
   let [cropList, setCropList] = useState([]);
 
@@ -31,7 +32,7 @@ export function AdminCropStatus() {
     <>
       <div className="row">
         <div className="col-lg-2 col-md-2 col-sm-2 sidebar">
-          <FarmerSideNav></FarmerSideNav>
+          <AdminSideNav></AdminSideNav>
         </div>
         <div className="col-lg-10 col-md-10 col-sm-10">
           <div className="bgp1">
