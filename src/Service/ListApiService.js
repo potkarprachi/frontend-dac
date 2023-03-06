@@ -40,7 +40,10 @@ export function getAllPendingList()
 {
     return axios.get(`${BASE_URL}/getAllCrops`);
 }
-
+export function getApprovedList()
+{
+    return axios.get(`${BASE_URL}/menuPage`);
+}
 export function updateAccDetails(loginData)
 {
     console.log("inside axios");

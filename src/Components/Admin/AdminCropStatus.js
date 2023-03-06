@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { cancelCropSelling, changeStatusAxios, getAllCropList, getAllPendingList } from "../../Service/ListApiService";
 import AdminSideNav from "../Layout/AdminSideNav";
 import { FarmerSideNav } from "../Layout/FarmerSideNav";
-
+//import "./FarmerCropStatus.css";
+import "../Farmer/FarmerCropStatus.css"
 import "./CropVerification.css";
 export function AdminCropStatus() {
   let [cropList, setCropList] = useState([]);
